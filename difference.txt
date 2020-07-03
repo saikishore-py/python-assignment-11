@@ -1,0 +1,10 @@
+#difference between list, tuoles and dictionary.
+
+
+A list can store a sequence of objects in a certain order such that you can index into the list, or iterate over the list. List is a mutable type meaning that lists can
+be modified after they have been created.
+
+A tuple is similar to a list except it is immutable. There is also a semantic difference between a list and a tuple.
+Tuples have structure, lists have order.
+
+A dictionary is a key-value store. It is not ordered and it requires that the keys are hashable. It is fast for lookups by key.
